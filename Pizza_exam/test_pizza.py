@@ -4,7 +4,7 @@ from selenium.webdriver.support.select import Select
 from webdriver_manager.chrome import ChromeDriverManager
 
 
-class Test_Synchronization:
+class Test_Pizza:
     def setup_class(cls):
         global driver
         driver = webdriver.Chrome(ChromeDriverManager().install())
